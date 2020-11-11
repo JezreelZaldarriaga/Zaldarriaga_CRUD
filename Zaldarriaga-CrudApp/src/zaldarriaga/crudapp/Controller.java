@@ -163,6 +163,9 @@ public class Controller {
                 Model.delete_data(identification);
                 vb.setVisible(false);
             }
+            if (e.getSource() == vb.btnOut){
+                vb.setVisible(false);
+            }
             //END OF CLOSINGS
         }
     }
